@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Beautiful Tea House</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+		<script
+			src="https://kit.fontawesome.com/0ad4d494ca.js"
+			crossorigin="anonymous"
+		></script>
+		<style>
+			.font-manrope {
+				font-family: 'Manrope', serif;
+			}
+		</style>
+	</head>
+
+	<body>
+		<main class="container mx-auto font-manrope">
+			<section class="flex p-20">
+				<div class="border-red-500 w-full">
+					<h1 class="text-6xl font-bold w-md">
+						It's good tea time at the tea house
+					</h1>
+					<p class="py-4 text-zinc-500 font-medium w-md">
+						Tea and botanical solutions supplier give optimum satisfaction to
+						your taste buds.
+					</p>
+					<button
+						class="btn bg-linear-to-r py-2 px-4 rounded from-[#FF8938] to-[#FF0000] text-white"
+					>
+						Explore More
+						<i class="fa-solid fa-arrow-up rotate-45"></i>
+					</button>
+				</div>
+
+				<div class="w-full relative">
+					<div class="w-md">
+						<img src="./images/banner.png" alt="img" />
+					</div>
+
+					<div
+						class="flex items-center gap-2 rating bg-stone-50 rounded w-fit px-4 py-2 absolute bottom-1 left-16"
+					>
+						<i class="fa-solid fa-star text-yellow-500"></i>
+						<div class="">
+							<h3 class="font-extrabold">5.00</h3>
+							<p>Trust Pilot Ratings</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="featuredProduct flex flex-col gap-2 justify-center items-center">
+				<h1 class="text-3xl font-extrabold">Our Featured Products</h1>
+				<p class="text-xs text-stone-600 w-lg text-center">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quod
+					incidunt ex, officiis dolorem explicabo sit deleniti minima.
+					Temporibus, magnam.
+				</p>
+
+				<div class="featuredProduct__cards flex my-4 p-4 gap-4">
+
+					<div class="card flex flex-col justify-center items-center p-4 rounded-lg bg-linear-to-b from-[#F4F4F4] to-stone-50">
+						<div class="imageContainer">
+							<img src="./images/tea-1.png" alt="product" />
+						</div>
+						<h3 class="pt-4 font-extrabold">Milk Tea</h3>
+						<small class="pt-1 text-gray-500 w-50 text-center">Cream may replaced with fresh milk</small>
+						
+					</div>
+
+					<div class="card flex flex-col justify-center items-center p-4 rounded-lg bg-linear-to-b from-[#F4F4F4] to-stone-50">
+						<div class="imageContainer">
+							<img src="./images/tea-2.png" alt="product" />
+						</div>
+						<h3 class="pt-4 font-extrabold">Black Tea</h3>
+						<small class="pt-1 text-gray-500 w-50 text-center">Cream may replaced with fresh milk</small>
+					</div>
+					
+					<div class="card flex flex-col justify-center items-center p-4 rounded-lg bg-linear-to-b from-[#F4F4F4] to-stone-50">
+						<div class="imageContainer">
+							<img src="./images/tea-3.png" alt="product" />
+						</div>
+						<h3 class="pt-4 font-extrabold">Lemon Tea</h3>
+						<small class="pt-1 text-gray-500 w-50 text-center">Cream may replaced with fresh milk</small>
+					</div>
+
+					<div class="card flex flex-col justify-center items-center p-4 rounded-lg bg-linear-to-b from-[#F4F4F4] to-stone-50">
+						<div class="imageContainer">
+							<img src="./images/tea-4.png" alt="product" />
+						</div>
+						<h3 class="pt-4 font-extrabold">Green Tea</h3>
+						<small class="pt-1 text-gray-500 w-50 text-center">Cream may replaced with fresh milk</small>
+					</div>
+
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
